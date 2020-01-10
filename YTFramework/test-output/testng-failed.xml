@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="org.testing.TestScripts.TC5">
+        <methods>
+          <include name="launch5"/>
+          <include name="out5"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC3">
+        <methods>
+          <include name="launch3"/>
+          <include name="out3"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC3 -->
+      <class name="org.testing.TestScripts.TC1">
+        <methods>
+          <include name="out"/>
+          <include name="launch"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC1 -->
+      <class name="org.testing.TestScripts.TC2">
+        <methods>
+          <include name="launch1"/>
+          <include name="out1"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC4">
+        <methods>
+          <include name="launch4"/>
+          <include name="log4"/>
+          <include name="out4"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC6">
+        <methods>
+          <include name="launch6"/>
+          <include name="out6"/>
+        </methods>
+      </class> <!-- org.testing.TestScripts.TC6 -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
